@@ -1180,10 +1180,10 @@
 				margin: 0 0 1.5em 0;
 			}
 
-				header > p {
-					margin: 0.5em 0 0 0;
-				}
 
+			header > p {
+				margin: 0.5em 0 0 0;
+			}
 
 
 		/* Button */
@@ -1326,6 +1326,7 @@
 				width: 45em;
 				background: #ffffff;
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+				text-align: center;
 			}
 
 			.panel {
@@ -1419,6 +1420,15 @@
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+					}
+					#me p{
+
+						position:relative;
+						vertical-align:bottom;
+					}
+					/* Contact */
+					#contact a .conIcons {
+						color:red;
 					}
 
 		/* Footer */
